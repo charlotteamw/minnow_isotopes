@@ -1,0 +1,247 @@
+ID,d_13C,d_15N,d_2H,organism,location,month,tissue
+EF4-A22-AL,-35.23,1.55,-162.79,algae,creek,august,
+FU-A22-AL,-37.46,1.86,-117.9,algae,creek,august,
+WU-A22-AL,-32.43,1.83,-133.36,algae,creek,august,
+EF4-A22-LE,-29.4,-0.92,-131.04,leaves,creek,august,
+FU-A22-LE,-30.23,0.39,-135.75,leaves,creek,august,
+WU-A22-LE,-28.85,0.93,-123.46,leaves,creek,august,
+A22-OP-49-0.5-mf,-27.08,-0.13,,mayfly,creek,august,
+A22-OP-49-1-mf,-28.28,0.07,,mayfly,creek,august,
+A22-OP-49-2-mf,-29.63,0.82,,mayfly,creek,august,
+EF4-A22-MUSS,-30.32,1.75,-124.06,mussel,creek,august,
+WD-A22-MUSS-1,-32.78,3.76,-117.38,mussel,creek,august,
+WD-A22-MUSS-2,-33.84,4.03,-110.01,mussel,creek,august,
+EF4-A22-ODO,-32.72,4.02,-113.35,odonate,creek,august,
+A22-OP-49-1-odo-1,-29.49,1.79,,odonate,creek,august,
+A22-OP-49-1-odo-2,-29.93,1.4,,odonate,creek,august,
+A22-OP-49-2-odo-1,-30.32,1.56,,odonate,creek,august,
+A22-OP-49-2-odo-2,-31.59,1.32,,odonate,creek,august,
+A22-OP-49-3-odo,-34.62,0.83,,odonate,creek,august,
+EF1-A22-Al,-47.13,0.72,-127.55,algae,lake,august,
+EF2-A22-AL,-36.79,-2.27,-112.55,algae,lake,august,
+EF3-A22-AL,-25.98,-1.68,-235.84,algae,lake,august,
+EF5-A22-AL,-29.87,0.84,-105.84,algae,lake,august,
+EF1-A22-TB,-30.02,0.2,-110.88,caterpillar,lake,august,
+EF1-A22-LE,-28.84,-0.42,-138.15,leaves,lake,august,
+EF2-A22-LE,-30.07,-2.23,-137.31,leaves,lake,august,
+EF3-A22-LE,-29.07,-1.08,-130.83,leaves,lake,august,
+EF5-A22-LE,-28.54,-1.32,-138.29,leaves,lake,august,
+A22-OP-44-0.5-mf,-21.63,-0.2,,mayfly,lake,august,
+A22-OP-44-1-mf,-22.58,0.64,,mayfly,lake,august,
+A22-OP-51-0.5-mf,-22.36,-1.06,,mayfly,lake,august,
+A22-OP-51-1-mf,-23.35,0.16,,mayfly,lake,august,
+A22-OP-51-2-mf,-25.43,1.39,,mayfly,lake,august,
+A22-OP-51-4-mf,-25.52,-0.06,,mayfly,lake,august,
+A22-OP-47-0.5-mf,-22.93,-0.28,,mayfly,lake,august,
+EF1-A22-MUSS,-30.2,1.13,-130.01,mussel,lake,august,
+EF3-A22-MUSS,-29.93,1.62,-122.11,mussel,lake,august,
+EF2-A22-ODO,-30.67,2.76,-119.27,odonate,lake,august,
+A22-OP-44-0.5-odo-1,-23.84,0.5,,odonate,lake,august,
+A22-OP-44-0.5-odo-2,-25.9,1.4,,odonate,lake,august,
+A22-OP-51-0.5-odo,-14.64,0.08,,odonate,lake,august,
+A22-OP-51-1-odo-1,-19.15,1.08,,odonate,lake,august,
+A22-OP-51-1-odo-2,-14.75,0.58,,odonate,lake,august,
+A22-OP-51-1-odo-3,-20.54,0.26,,odonate,lake,august,
+A22-OP-51-2-odo-1,-17.89,0.24,,odonate,lake,august,
+A22-OP-51-2-odo-2,-22.15,0.56,,odonate,lake,august,
+A22-OP-51-2-odo-3,-20.12,0.57,,odonate,lake,august,
+A22-OP-51-3-odo-1,-24.09,2.11,,odonate,lake,august,
+A22-OP-51-3-odo-2,-23.38,1.3,,odonate,lake,august,
+A22-OP-51-3-odo-3,-19.93,1.5,,odonate,lake,august,
+A22-OP-51-4-odo-1,-21.26,-0.1,,odonate,lake,august,
+A22-OP-51-4-odo-2,-19.93,1.99,,odonate,lake,august,
+A22-OP-46-3-odo,-24.63,2.33,,odonate,lake,august,
+A22-OP-46-4-odo-1,-25.83,3.35,,odonate,lake,august,
+A22-OP-46-4-odo-3,-26.84,2.14,,odonate,lake,august,
+A22-OP-46-4-odo-2,-26.99,2.04,,odonate,lake,august,
+A22-OP-47-0.5-odo,-24.67,2.23,,odonate,lake,august,
+EF4-22-AL,-30.08,0.12,-133.24,algae,creek,may,
+FU-22-AL,-31.77,0.97,-134.4,algae,creek,may,
+WD-22-AL,-73.23,0.9,-123.83,algae,creek,may,
+EF4-22-LE,-28.24,-1.34,-101.6,leaves,creek,may,
+FU-22-LE,-28.64,-0.63,-116.26,leaves,creek,may,
+WD-22-LE,-26.97,0.82,-100.96,leaves,creek,may,
+EF4-22-MF,-34.4,2.1,-152.22,mayfly,creek,may,
+M22-OP-49-mf-1,-31.78,1.06,,mayfly,creek,may,
+WD-22-MUSS,-33.43,4.04,-115.09,mussel,creek,may,
+M22-OP-MUS-22,-30.9,2.27,,mussel,creek,may,
+M22-OP-MUS-23,-30.56,2.5,,mussel,creek,may,
+M22-OP-MUS-19,-31.05,1.62,,mussel,creek,may,
+EF4-22-ODO,-32.31,4.3,-132.25,odonate,creek,may,
+M22-OP-49-odo-1,-29.84,2.15,,odonate,creek,may,
+M22-OP-49-odo-2,-35.25,2.44,,odonate,creek,may,
+M22-OP-49-mf-2,-32.06,0.83,,mayfly,creek,may,
+EF2-22-AL,-28.26,-1.11,-119.8,algae,lake,may,
+EF2-22-LE,-29.75,-2.69,-107.26,leaves,lake,may,
+M22-OP-51-mf,-22.32,-0.91,,mayfly,lake,may,
+M22-OP-44-mf-2,-25.62,0.93,,mayfly,lake,may,
+M22-OP-44-mf-1,-25.5,1,,mayfly,lake,may,
+M22-OP-46-mf-1,-26.84,0.81,,mayfly,lake,may,
+M22-OP-46-mf-2,-25.73,3.32,,mayfly,lake,may,
+M22-OP-46-mf-3,-24.2,0.53,,mayfly,lake,may,
+M22-OP-47-mf-1,-28.17,1.14,,mayfly,lake,may,
+M22-OP-47-mf-2,-28.5,0.09,,mayfly,lake,may,
+M22-OP-MUS-25,-28.85,0.13,,mussel,lake,may,
+M22-OP-MUS-26,-28.44,0.81,,mussel,lake,may,
+M22-OP-MUS-27,-28.47,1.38,,mussel,lake,may,
+M22-OP-MUS-28,-28.67,0.84,,mussel,lake,may,
+M22-OP-MUS-29,-27.96,1.81,,mussel,lake,may,
+M22-OP-MUS-31,-28.64,0.27,,mussel,lake,may,
+M22-OP-MUS-32,-28.81,0.92,,mussel,lake,may,
+M22-OP-MUS-33,-28.4,1,,mussel,lake,may,
+M22-OP-MUS-34,-28.53,1.35,,mussel,lake,may,
+M22-OP-MUS-35,-29.18,0.07,,mussel,lake,may,
+M22-OP-MUS-38,-28.06,0.2,,mussel,lake,may,
+M22-OP-MUS-10,-28.69,1.02,,mussel,lake,may,
+EF1-22-ODO,-29.66,3.66,-118.52,odonate,lake,may,
+EF2-22-ODO,-29.89,2.58,-110.35,odonate,lake,may,
+EF3-22-ODO,-30.17,2.53,-114.18,odonate,lake,may,
+M22-OP-51-odo,-18.5,2.55,,odonate,lake,may,
+M22-OP-44-odo,-25.66,1.8,,odonate,lake,may,
+M22-OP-46-odo,-24.66,2.25,,odonate,lake,may,
+OP5-22-127-M,-26.77,5.82,-126.6502444,bluntnose minnow,lake,may,muscle
+OP5-22-136-L,-28.47,5.86,-124.5425029,bluntnose minnow,lake,may,liver
+OP5-22-136-M,-27.24,6.17,-128.9057587,bluntnose minnow,lake,may,muscle
+OP5-22-33-M,-30.17,5.6,-112.0266745,bluntnose minnow,lake,may,muscle
+OP6-22-146-M,-27.53,6.4,-128.8265947,bluntnose minnow,lake,may,muscle
+OP6-S22-802-M,-27.78,5.81,-133.2861667,bluntnose minnow,lake,october,muscle
+OP6-S22-803-M,-27.49,5.81,-124.9211707,bluntnose minnow,lake,october,muscle
+OP7-22-266-M,-28.08,6.48,-123.2824759,bluntnose minnow,lake,may,muscle
+OP7-22-338-M,-27.74,5.89,-110.12,bluntnose minnow,lake,may,muscle
+OP9-22-279-L,-30.26,5.56,-145.0881997,bluntnose minnow,lake,october,liver
+OP9-22-279-M,-28.62,6.19,-114.3184723,bluntnose minnow,lake,october,muscle
+CC25-22-504-L,-31.4,5.47,-140.16,common shiner,creek,may,liver
+CC25-22-504-M,-28.81,7.87,-119.83,common shiner,creek,may,muscle
+EF4-A22-104-M,-28.69,7.03,-116.6,common shiner,creek,august,muscle
+OP3-22-132-L,-30.88,6.09,-145.63,common shiner,lake,may,liver
+OP3-22-132-M,-29.29,6.71,-111.42,common shiner,lake,may,muscle
+OP4-22-23-M,-28.68,6.26,-110.66,common shiner,lake,may,muscle
+OP7-S22-105-L,-25.82,3.8,-107.72,common shiner,lake,october,liver
+OP7-S22-105-M,-29.08,5.78,-159.38,common shiner,lake,october,muscle
+OP7-S22-106-M,-32.34,4.19,-107.17,common shiner,lake,october,muscle
+OP9-22-334-M,-28.54,6.7,-118.11,common shiner,lake,may,muscle
+WD-A22-57-M,-28.29,7.7,-105.68,common shiner,creek,august,muscle
+WU-22-03-M,-31.6,5.41,-111.97,common shiner,creek,may,muscle
+WU-22-04-L,-31.27,4.86,-132.75,common shiner,creek,may,liver
+WU-22-04-M,-27.57,6.46,-108.01,common shiner,creek,may,muscle
+WU-22-07-L,-32.73,3.86,-145.91,common shiner,creek,may,liver
+WU-22-07-M,-30.37,6.83,-109.29,common shiner,creek,may,muscle
+WU-22-10-L,-30.81,6.06,-157.7727562,common shiner,creek,may,liver
+WU-22-10-M,-28.74,6.04,-114.77,common shiner,creek,may,muscle
+WU-22-14-L,-32.33,4.94,-145.34,common shiner,creek,may,liver
+WU-22-14-M,-28.9,5.47,-108.34,common shiner,creek,may,muscle
+WU-22-24-M,-30.53,4.49,-112.04,common shiner,creek,may,muscle
+CC12-22-198-L,-31.01,5.93,-150.11,creek chub,creek,may,liver
+CC12-22-198-M,-27.39,6.98,-116.31,creek chub,creek,may,muscle
+CC18-22-240L,-30.87,5.87,-115.4201713,creek chub,creek,may,liver
+CC18-22-240-M,-30.72,6.56,-113.388955,creek chub,creek,may,muscle
+CC-S22-101-M,-27.11,8.76,-103.7751469,creek chub,creek,october,muscle
+DN2-22-82-L,-30.34,6.88,-117.67,creek chub,creek,may,liver
+DN2-22-82-M,-27.71,7.05,-99.08,creek chub,creek,may,muscle
+OP1-22-45-L,-29.35,5.51,-116.65,creek chub,lake,may,liver
+OP1-22-45-M,-29.22,6.78,-120.76,creek chub,lake,may,muscle
+OP16-A22-01-L,-22.33,5.89,-87.6,creek chub,lake,august,liver
+OP17-A22-02-L,-26.32,5.05,-113.6759245,creek chub,lake,august,liver
+OP17-A22-02-M,-26.68,6.45,-113.1534421,creek chub,lake,august,muscle
+OP2-S22-100-M,-27.85,6.46,-104.2897129,creek chub,lake,october,muscle
+OP7-22-387-L,-27.57,7.05,-111.759496,creek chub,lake,may,liver
+OP7-22-387-M,-27.92,7.78,-121.58,creek chub,lake,may,muscle
+UP1-22-117-L,-31.24,6.94,-141.5429719,creek chub,creek,may,liver
+UP1-22-117-M,-29.02,7.5,-110.0851774,creek chub,creek,may,muscle
+WD-S22-207-M,-31.1,6.65,-101.61,creek chub,creek,october,muscle
+WU-22-13-L,-28.91,5.36,-135.9947664,creek chub,creek,may,liver
+WU-22-13-M,-26.9,6.59,-111.92,creek chub,creek,may,muscle
+WU-22-34-L,-26.87,7.71,-116.14,creek chub,creek,may,liver
+WU-22-34-M,-29.28,8.16,-114.03,creek chub,creek,may,muscle
+CC10-22-18-L,-32.69,6.33,-140.97,golden shiner,creek,may,liver
+CC10-22-18-M,-31.58,8.17,-116.22,golden shiner,creek,may,muscle
+CC12-22-203-L,-30.09,5.06,-119.8,golden shiner,creek,may,liver
+CC12-22-203-M,-29.4,6.13,-113.78,golden shiner,creek,may,muscle
+CC16-22-225-L,-28.14,6.68,-111.87,golden shiner,creek,may,liver
+CC16-22-225-M,-28.59,7.15,-110.61,golden shiner,creek,may,muscle
+CC16-22-230-L,-31.47,6.65,-124.08,golden shiner,creek,may,liver
+CC16-22-230-M,-31.46,7.17,-114.71,golden shiner,creek,may,muscle
+FU-22-16-L,-30.35,5.05,-131.01,golden shiner,creek,may,liver
+FU-22-16-M,-28.28,6.51,-117.2,golden shiner,creek,may,muscle
+OP1-22-123-L,-29.95,6.14,-123.96,golden shiner,lake,may,liver
+OP1-22-123-M,-28.24,6.43,-120.19,golden shiner,lake,may,muscle
+OP12-22-321-M,-28.2,6.08,-111.77,golden shiner,lake,may,muscle
+OP1-22-34-L,-31.23,6.3,-112.42,golden shiner,lake,may,liver
+OP1-22-34-M,-29.76,6.18,-111.95,golden shiner,lake,may,muscle
+OP17-A22-01-M,-28.26,4.75,-113.73,golden shiner,lake,august,muscle
+OP7-22-379-L,-29.49,6.36,-119.67,golden shiner,lake,may,liver
+OP7-22-379-M,-29.16,6.58,-114.5777344,golden shiner,lake,may,muscle
+UP2-22-97-L,-30.45,7.28,-125.25,golden shiner,creek,may,liver
+UP2-22-97-M,-30.13,7.53,-119.7,golden shiner,creek,may,muscle
+WU-22-02-L,-33.69,4.75,-145.72,golden shiner,creek,may,liver
+WU-22-02-M,-30.23,6.45,-121.51,golden shiner,creek,may,muscle
+EF4-22-07-M,-29.62,8.57,-109.79,northern redbelly dace ,creek,may,muscle
+EF4-A22-100-M,-29.98,7.9,-120.93,northern redbelly dace ,creek,august,muscle
+WD-22-63-M,-29.47,7.78,-111.44,northern redbelly dace ,creek,may,muscle
+WU-22-33-M,-30.7,7.53,-107.76,northern redbelly dace ,creek,may,muscle
+WU-22-39-M,-30.58,7.86,-106.31,northern redbelly dace ,creek,may,muscle
+CC7-22-148-M,-30.5,8.57,-115.98,pearl dace,creek,may,muscle
+FU-22-25-M,-30.16,6.86,-107.94,pearl dace,creek,may,muscle
+WD-22-64-L,-29.94,6.19,-109.99,pearl dace,creek,may,liver
+WD-22-64-M,-31.16,6.02,-109.29,pearl dace,creek,may,muscle
+WD-A22-25-L,-33.06,8.92,-152.77,pearl dace,creek,august,liver
+WD-A22-25-M,-31.61,8.34,-108.823831,pearl dace,creek,august,muscle
+WD-A22-33-M,-31.03,7.59,-110.48,pearl dace,creek,august,muscle
+WD-S22-201-L,-33.99,4.89,-179.12,pearl dace,creek,october,liver
+WD-S22-201-M,-33.76,5.55,-126.04,pearl dace,creek,october,muscle
+WU-22-27-M,-28.66,7.84,-114.84,pearl dace,creek,may,muscle
+A-22-01-L,-28.44,7.92,-124.72,smallmouth bass,lake,may,liver
+A-22-01-M,-27.16,8.07,-97.27,smallmouth bass,lake,may,muscle
+A-22-02-L,-27.82,7.19,-118.7131034,smallmouth bass,lake,may,liver
+A-22-02-M,-26.62,6.99,-113.86,smallmouth bass,lake,may,muscle
+A-22-03-L,-27.12,7.11,-113.61,smallmouth bass,lake,may,liver
+A-22-03-M,-26.19,7.71,-98.92,smallmouth bass,lake,may,muscle
+A-22-05-L,-27.59,8.05,-117.93,smallmouth bass,lake,may,liver
+A-22-05-M,-25.95,8.13,-99.68,smallmouth bass,lake,may,muscle
+A-22-06-L,-28.45,7.37,-112.47,smallmouth bass,lake,may,liver
+A-22-06-M,-26.96,8.11,-111.93,smallmouth bass,lake,may,muscle
+A-22-07-L,-29.71,7.93,-112.02,smallmouth bass,lake,may,liver
+A-22-07-M,-28.64,7.67,-104.96,smallmouth bass,lake,may,muscle
+A-22-08-L,-28.15,7.95,-117.36,smallmouth bass,lake,may,liver
+A-22-08-M,-26.67,7.4,-110.62,smallmouth bass,lake,may,muscle
+A-22-09-L,-27.73,7.08,-115.2,smallmouth bass,lake,may,liver
+A-22-09-M,-26.28,7.15,-108.79,smallmouth bass,lake,may,muscle
+A-22-10-L,-29.14,7.83,-114.86,smallmouth bass,lake,may,liver
+A-22-10-M,-27.47,8.43,-110.07,smallmouth bass,lake,may,muscle
+A-22-11-L,-31.26,6,-109.12,smallmouth bass,lake,may,liver
+A-22-11-M,-29.23,7.29,-103.33,smallmouth bass,lake,may,muscle
+A-A22-01-L,-27.37,6.28,-122.88,smallmouth bass,lake,august,liver
+A-A22-01-M,-26.46,6.9,-102.22,smallmouth bass,lake,august,muscle
+A-A22-02-L,-28.57,6.26,-122.92,smallmouth bass,lake,august,liver
+A-A22-02-M,-28.67,6.63,-107.35,smallmouth bass,lake,august,muscle
+A-A22-03-L,-27.88,6.23,-111.89,smallmouth bass,lake,august,liver
+A-A22-03-M,-26.23,7.2,-89.3127499,smallmouth bass,lake,august,muscle
+A-A22-04-L,-29.62,5.82,-125.01,smallmouth bass,lake,august,liver
+A-A22-04-M,-27.8,6.51,-106.05,smallmouth bass,lake,august,muscle
+A-A22-05-L,-28.22,6.17,-126.76,smallmouth bass,lake,august,liver
+A-A22-05-M,-26.71,7.27,-102.09,smallmouth bass,lake,august,muscle
+A-A22-06-L,-28.54,6.95,-120.03,smallmouth bass,lake,august,liver
+A-A22-06-M,-26.44,7.42,-104.17,smallmouth bass,lake,august,muscle
+A-A22-07-L,-29.82,6.9,-116.67,smallmouth bass,lake,august,liver
+A-A22-07-M,-28.37,8.27,-100.33,smallmouth bass,lake,august,muscle
+A-A22-08-L,-30.63,5.55,-124.21,smallmouth bass,lake,august,liver
+A-A22-08-M,-29.94,6.54,-114.63,smallmouth bass,lake,august,muscle
+A-A22-09-L,-30.06,6.42,-122.45,smallmouth bass,lake,august,liver
+A-A22-09-M,-27.82,6.83,-111.84,smallmouth bass,lake,august,muscle
+A-A22-10-L,-28.75,5.87,-110.79,smallmouth bass,lake,august,liver
+A-A22-10-M,-27.19,7.17,-105.57,smallmouth bass,lake,august,muscle
+FU-22-07-L,-29.84,7.77,-120.61,smallmouth bass,creek,may,liver
+FU-22-07-M,-26.88,6.46,-116.72,smallmouth bass,creek,may,muscle
+FU-22-08-L,-28.38,7.05,-119.58,smallmouth bass,creek,may,liver
+FU-22-08-M,-27.79,6.56,-111.13,smallmouth bass,creek,may,muscle
+OP1-S22-700-L,-28.93,3.04,-159.17,yellow perch,lake,october,liver
+OP1-S22-700-M,-27.78,5.26,-120.75,yellow perch,lake,october,muscle
+OP5-S22-701-L,-30.83,5.56,-130.68,yellow perch,lake,october,liver
+OP5-S22-701-M,-28.65,6.46,-108.69,yellow perch,lake,october,muscle
+WD-A22-11-L,-33.43,6.39,-136.65,yellow perch,creek,august,liver
+WD-A22-11-M,-31.43,6.74,-90.31,yellow perch,creek,august,muscle
+WD-A22-12-L,-29.23,5.56,-144.8885331,yellow perch,creek,august,liver
+WD-A22-12-M,-26.85,6.32,-108.2010742,yellow perch,creek,august,muscle
+WD-A22-14-M,-30.83,6.62,-99.55,yellow perch,creek,august,muscle
+WD-S22-702-L,-32.32,6.76,-118.6,yellow perch,creek,october,liver
+WD-S22-702-M,-29.47,7.38,-111.79,yellow perch,creek,october,muscle
