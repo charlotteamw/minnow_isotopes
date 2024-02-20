@@ -729,8 +729,6 @@ ggplot(data_nrb_oct, aes(x=location, y=lake_coupling, fill=tissue)) +
   scale_fill_manual("Legend", values = c("liver" = "plum4", "muscle" = "slategray3"))
 
 
-
-
 ##### Yellow Perch oct #####
 data_yp_oct <- data_oct %>%
   filter(organism=="yellow perch")
@@ -782,14 +780,18 @@ ggplot(data_smb_oct, aes(x=location, y=lake_coupling, fill=tissue)) +
 # Combine the data frames for May, August, and October
 combined_data <- bind_rows(data_gs_may, data_gs_aug, data_gs_oct)
 
-plot_data_for_location <- function(data, location) {
+plot_data_for_location <- function(data, chosen_location) {
+  # Ensure 'month' is a factor with levels in the correct order
+  data$month <- factor(data$month, levels = c("may", "august", "october"))
+  
   data %>%
-    filter(location == location) %>%
+    filter(.data$location == chosen_location) %>%
     ggplot(aes(x = month, y = lake_coupling, fill = tissue)) +
-    geom_boxplot(alpha = 0.5, outlier.shape = NA, position = position_dodge(width = 0.75)) + # Set boxes to be 50% transparent and dodge them
-    geom_jitter(position = position_dodge(width = 0.75), width = 0.2) + # Add points on the boxes and dodge them
+    geom_boxplot(alpha = 0.4, outlier.shape = NA, position = position_dodge(width = 0.75)) + 
+    geom_jitter(position = position_dodge(width = 0.75), aes(color = tissue), size = 1.5) + 
     scale_fill_manual(values = c("liver" = "plum4", "muscle" = "slategray3")) +
-    labs(y = "Lake Energy Use", x = "Month", title = paste("Golden Shiner Energy Use in", location)) +
+    scale_color_manual(values = c("liver" = "plum4", "muscle" = "slategray3")) +
+    labs(y = "Lake Energy Use", x = "Month", title = paste("Golden Shiner Energy Use in", chosen_location)) +
     theme_minimal() +
     theme(panel.border = element_blank(),
           panel.grid.major = element_blank(),
@@ -802,9 +804,11 @@ plot_data_for_location <- function(data, location) {
           axis.title.y = element_text(size = 14),
           plot.title = element_text(size = 16),
           legend.title = element_text(size = 14),
-          legend.text = element_text(size = 12))
+          legend.text = element_text(size = 12),
+          legend.position = "bottom")
 }
 
+# Call the function for 'lake' and 'creek' locations separately
 # Plot for "lake"
 plot_data_for_location(combined_data, "lake")
 
