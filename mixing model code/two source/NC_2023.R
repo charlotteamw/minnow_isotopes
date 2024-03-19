@@ -9,8 +9,12 @@ isotope_data <- read.csv("/Users/charlotteward/Documents/minnow_isotopes/data/fi
 
 ##function to calculate trophic position & coupling -- two-source mixing model, coupling bound b/w 0-1
 
+### Choose which was to use the data - first option: creek & int combined; second option: int removed 
+#isotope_data <- isotope_data %>%
+  #mutate(location = ifelse(location == "int", "creek", location))
+
 isotope_data <- isotope_data %>%
-  mutate(location = ifelse(location == "int", "creek", location))
+  filter(location != "int")
 
 si_mixing_model_pred_bound_may <- function(x) {
   iso_data <- x
@@ -532,7 +536,7 @@ data_smb_aug <- data_aug %>%
 ggplot(data_smb_aug, aes(x=location, y=lake_coupling, fill=tissue)) + 
   labs(y= "Lake Energy Use", x = "location") +
   geom_boxplot()+
-  ggtitle("SMB May") +  
+  ggtitle("SMB Aug") +  
   theme(panel.border = element_blank(),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
@@ -549,11 +553,54 @@ ggplot(data_smb_aug, aes(x=location, y=lake_coupling, fill=tissue)) +
   scale_fill_manual("Legend", values = c("liver" = "plum4", "muscle" = "slategray3"))
 
 
+
 ################## OCTOBER ####################
 
 
+si_mixing_model_pred_bound_oct <- function(x) {
+  iso_data <- x
+  
+  cr_baseline <- iso_data %>%
+    filter(organism %in% c("mayfly", "stonefly", "mussel")) %>%
+    filter(location == "creek", month=="october")
+  cr_mean_dC <- mean(cr_baseline$d13C_kilj)
+  cr_mean_dN <- mean(cr_baseline$d15N)
+  
+  lk_baseline <- iso_data %>%
+    filter(organism %in% c("mayfly", "stonefly", "mussel")) %>%
+    filter(location == "lake", month=="october")
+  lk_mean_dC <- mean(lk_baseline$d13C_kilj)
+  lk_mean_dN <- mean(lk_baseline$d15N)
+  
+  df_pred <- iso_data %>%
+    filter(organism %in% c("common shiner", "golden shiner", "creek chub", "bluntnose minnow", "northern redbelly dace", "pearl dace", "yellow perch", "smallmouth bass"))
+  
+  for(i in 1:nrow(df_pred)){
+    lake_coupling <- ((df_pred$d13C_kilj - cr_mean_dC)/(lk_mean_dC - cr_mean_dC))
+    lake_coupling[lake_coupling > 1] <- 0.999
+    lake_coupling[lake_coupling < 0] <- 0.001
+    TP_pred <- 2 + (((lake_coupling * ((df_pred$d15N - lk_mean_dN)/3.4))) + ((1 - lake_coupling) * ((df_pred$cal.d15N - cr_mean_dN)/3.4)))
+    dN_pred <- df_pred$d15N - (((1 - lake_coupling) * cr_mean_dN) + (lake_coupling * lk_mean_dN))
+    mixing_model <- cbind(lake_coupling, TP_pred, dN_pred)
+  }
+  
+  mixing_model <- as.data.frame(mixing_model)
+  mixing_model$organism <- df_pred$organism
+  mixing_model$ID <- df_pred$ID
+  mixing_model$location <- df_pred$location
+  mixing_model$tissue <- df_pred$tissue
+  mixing_model$month <- df_pred$month
+  
+  mixing_model
+}
+
+oct_tp_lake_coupling <- si_mixing_model_pred_bound_oct(isotope_data)
+
+head(may_tp_lake_coupling)
+
+
 # Filter the data for october samples
-data_oct <- aug_tp_lake_coupling %>%
+data_oct <- oct_tp_lake_coupling %>%
   filter(month == "october") %>%
   filter(tissue != "N/A")
 
@@ -759,7 +806,7 @@ data_smb_oct <- data_oct %>%
 ggplot(data_smb_oct, aes(x=location, y=lake_coupling, fill=tissue)) + 
   labs(y= "Lake Energy Use", x = "location") +
   geom_boxplot()+
-  ggtitle("SMB oct") +  
+  ggtitle("SMB May") +  
   theme(panel.border = element_blank(),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
@@ -775,10 +822,9 @@ ggplot(data_smb_oct, aes(x=location, y=lake_coupling, fill=tissue)) +
   )+
   scale_fill_manual("Legend", values = c("liver" = "plum4", "muscle" = "slategray3"))
 
-
 ## GS plot
 # Combine the data frames for May, August, and October
-combined_data <- bind_rows(data_gs_may, data_gs_aug, data_gs_oct)
+combined_data_gs <- bind_rows(data_gs_may, data_gs_aug, data_gs_oct)
 
 plot_data_for_location <- function(data, chosen_location) {
   # Ensure 'month' is a factor with levels in the correct order
@@ -791,7 +837,7 @@ plot_data_for_location <- function(data, chosen_location) {
     geom_jitter(position = position_dodge(width = 0.75), aes(color = tissue), size = 1.5) + 
     scale_fill_manual(values = c("liver" = "plum4", "muscle" = "slategray3")) +
     scale_color_manual(values = c("liver" = "plum4", "muscle" = "slategray3")) +
-    labs(y = "Lake Energy Use", x = "Month", title = paste("Golden Shiner Energy Use in", chosen_location)) +
+    labs(y = "Lake Energy Use", x = "Month", title = paste("Energy Use in", chosen_location)) +
     theme_minimal() +
     theme(panel.border = element_blank(),
           panel.grid.major = element_blank(),
@@ -809,8 +855,19 @@ plot_data_for_location <- function(data, chosen_location) {
 }
 
 # Call the function for 'lake' and 'creek' locations separately
-# Plot for "lake"
-plot_data_for_location(combined_data, "lake")
+# Plot for "lake" GS
+plot_data_for_location(combined_data_gs, "lake")
 
 # Plot for "creek"
-plot_data_for_location(combined_data, "creek")
+plot_data_for_location(combined_data_gs, "creek")
+
+######### YP plot ######
+# Combine the data frames for May, August, and October
+combined_data_yp <- bind_rows(data_yp_may, data_yp_aug, data_yp_oct)
+
+# Call the function for 'lake' and 'creek' locations separately
+# Plot for "lake"
+plot_data_for_location(combined_data_yp, "lake")
+
+# Plot for "creek"
+plot_data_for_location(combined_data_yp, "creek")

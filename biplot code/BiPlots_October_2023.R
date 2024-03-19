@@ -8,7 +8,7 @@ isotope_data$organism_group <- ifelse(isotope_data$organism %in% c("mayfly", "st
                                       ifelse(isotope_data$organism %in% c("caterpillar", "beetle", "slug", "millipede", "pill bug"), "terra", isotope_data$organism))
 
 isotope_data_base <- isotope_data %>%
-  filter(organism_group %in% c("EPT", "terra", "mussel", "")) %>%
+  filter(organism_group %in% c("EPT", "terra", "mussel")) %>%
   group_by(organism_group, location) %>%
   summarise(
     mean_d13C = mean(d13C_post, na.rm = TRUE),
